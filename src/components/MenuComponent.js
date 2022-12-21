@@ -3,10 +3,15 @@ import { Card, CardImg, CardImgOverlay, CardText, CardTitle  } from "reactstrap"
 import DishdetailComponent from './DishdetailComponent';
 
 class Menu extends Component{
-    constructor(props){
-        super(props);
+    // constructor(props){
+    //     super(props);
+    //     console.group('Menu Component constructor invoked');
        
-    }
+    // }
+
+    // componentDidMount() {
+    //     console.log('Menu Component componentDidMount invoked';)
+    // }
     
     render(){
         const menu = this.props.dishes.map((dish) => {
